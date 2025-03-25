@@ -6,9 +6,17 @@ body {
   margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
 }
 
 .container {
@@ -55,4 +63,53 @@ a{
 .categories ul {
   padding: 0;
   list-style: none;
+  padding-left: 20px;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+  /* list-style-image: url(images/download\ \(1\).png); */
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.btn:hover {
+  background: red;
+  color: white;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px black solid;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
 }
